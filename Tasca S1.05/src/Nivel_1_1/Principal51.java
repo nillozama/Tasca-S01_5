@@ -9,7 +9,7 @@ public class Principal51 {
 
 		LlistaDirectori directori=new LlistaDirectori();
 		try {
-			directori.imprimirDirectoris(requireString("Escribe la ruta del directorio que quieres listar."));
+			directori.imprimirDirectoris("C:\\Carpeta prueba");
 		} catch (IOException e) {
 
 			e.printStackTrace();
@@ -23,7 +23,7 @@ public class Principal51 {
 		
 		System.out.println(message);
 		string=sc.nextLine();
-		
+
 		return string;
 	}
 }

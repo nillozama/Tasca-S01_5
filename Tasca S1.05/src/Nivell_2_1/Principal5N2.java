@@ -7,8 +7,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
-import Nivell_1_3.LlistaArbreDirectoriTxt;
-
 public class Principal5N2 {
 	
 	public static void main(String[] args) {
